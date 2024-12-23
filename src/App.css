@@ -4,6 +4,10 @@
   height: 200px;
 
 } */
+ *{
+  margin: 0;
+  padding: 0;
+ }
  
 .home {
   display: flex;
@@ -98,23 +102,27 @@
 
   }
   .home .image img{
-    margin-left: 15%;
+    margin-left: 30%;
   }
   .contentone h2{
-    margin-left: 40%;
+   margin-left: 60%;
   }
   .contentone p{
-    margin-left: 40%;
+    margin-left: 60%;
   }
   .contentone button{
-    margin-left: 30%;
+    margin-left: 50%;
   }
   
 
   .boxes {
     flex-direction: column;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 40%;
+  }
+  *{
+    margin: 0;
+    padding: 0;
   }
 
   .second {
@@ -226,7 +234,7 @@
     
   } 
   .paper{
-    margin-left: 12%;
+    margin-left: 40%;
   }
 }
 
